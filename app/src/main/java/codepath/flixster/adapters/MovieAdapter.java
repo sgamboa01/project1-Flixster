@@ -36,7 +36,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
         this.movies = movies;
     }
 
-    //Usually involves inflating a layout from XML and returning the holder
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
